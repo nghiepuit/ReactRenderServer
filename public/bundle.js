@@ -46,20 +46,13 @@
 
 	'use strict';
 
-	// var say = require('./component/hello.js');
-	// say();
-	// document.write('Hello');
-
 	var React = __webpack_require__(1);
 	var ReactDOM = __webpack_require__(32);
-
+	// var List = require('./components/List.js');
 	ReactDOM.render(
 	// React.createElement('a',{href: 'http://google.com'},'Click để vào google'),
-	React.createElement(
-	    'a',
-	    { href: 'http://google.com' },
-	    'Google'
-	), document.getElementById('root'));
+	// <List/>,
+	document.getElementById('root'));
 
 /***/ },
 /* 1 */
